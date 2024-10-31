@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff7613;
+    --text-color: #727171;
+    --background-color: #121212;
+    --container-background-color: #1e1e1e; 
+    --text-light-color: #ffffff; 
+
+html {
+    font-size: 12px;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-light-color); 
+}
+
+/* Layouts */
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 15px auto;
+    display: grid;
+    padding: 5rem;
+    background-color: var(--container-background-color); 
+    color: var(--text-light-color);
+}
+
+.navbar {
+    background-color: var(--primary-color); 
+}
+
+.nav-link {
+    color: var(--text-light-color); 
+}
+
+.nav-link:hover {
+    color: var(--primary-color);
+}
+
+.profile_title, .description, .contact_info {
+    color: var(--text-light-color);
+}
+}
