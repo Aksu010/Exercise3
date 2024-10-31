@@ -50,3 +50,9 @@ body {
     color: var(--text-light-color);
 }
 }
+.profile_title{
+font-size: larger;    
+}
+.profile_profileImG{
+    margin: 20px auto;
+}
